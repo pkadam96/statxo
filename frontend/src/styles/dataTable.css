@@ -1,5 +1,5 @@
 .datatable-container {
-    height: 85vh;
+    min-height: 85vh;
     padding: 20px;
     background-color: #333;
     color:white;

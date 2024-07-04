@@ -4,6 +4,7 @@ import '../styles/login.css';
 
 const Login = ({ setRole }) => {
   const navigate = useNavigate();
+  setRole('');
 
   const handleLogin = (role) => {
     setRole(role);
