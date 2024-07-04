@@ -11,7 +11,7 @@ const AddRecordForm = ({ onAdd }) => {
     actionName: 'Action 1',
     actionType: 'Type A',
     actionNumber: '',
-    impact: 'Low',
+    Impact: 'Low',
     status: 'Pending'
   }
 
