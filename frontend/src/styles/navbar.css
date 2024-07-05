@@ -35,3 +35,30 @@
     margin-left: 30px;
     cursor: pointer;
 }
+
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 5px;
+        background-color: rgb(32, 32, 32);;
+        color: #fff;
+    }
+    
+    .navbar-welcome {
+        font-size: 1rem;
+        width: 100px;
+    }
+    
+    .navbar-links a{
+        margin-left: 10px;
+    }  
+    .navbar button{
+       
+        padding: 7px 10px;
+        font-size: medium;
+        color: white;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    
+}

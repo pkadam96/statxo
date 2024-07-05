@@ -20,6 +20,7 @@ const Navbar = ({ role, setRole }) => {
         ) : (
           <Link to="/add-data">Add Data</Link>
         )}
+        <Link to="/impact-chart">Impact Chart</Link> {/* Add link to chart */}
         <button onClick={handleLogout}>Logout</button>
       </div>
     </nav>
